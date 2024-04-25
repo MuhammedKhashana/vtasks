@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+As a frontend developer you can't get your app to the live without backend, so this is problem for us specially when we are in stage of implementation what we learned.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+So, I learned FIREBASE.
+Firebase gives me most of the features that I will need from the backend to get my app alive.
 
-## Available Scripts
+I'm happy to share with you my first app with firebase TO-DO APP
 
-In the project directory, you can run:
+In my app you can create your own account with your email and login later or you can do it with Google, then You will receive email to verify your account, in case you forgot password on login you can reset it by sending you email finally you can logout. 
+🔴 if you logged with your GOOGLE account you will not be able to reset email or password because this isn't existing data, to be able to do that you have to sign up with the same email and create password
 
-### `npm start`
+You have all control about your profile,
+You can edit your Name or Image or update your email or password.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- I have used multiple libraries for the design to make it simple and easy for navigation between profile control and tasks list so I hope you like it
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Features of the app
+- You can add task in the main list and description for it (optional) and you can edit it or mark it as completed task to go to the completed tasks list where you can delete it or call it back as uncompleted task
 
-### `npm test`
+- You can create new list for example weekly or monthly Tasks and you can edit its name later and adding your tasks which have the same features that we are talking about above then you can delete the list if you want
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+In the development side I used Firebase as I said but used it with Redux-Toolkit completely the same way if I use API, in case in the future this app will be dependent on API It will be very easy to do this operation.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The APP is available now you can use it: https://lnkd.in/dxw-W-9i
